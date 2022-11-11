@@ -5,7 +5,7 @@ import { AboutUs, CTA, Hero, Offers, Pricing, Services, Blog, Stats, Steps, Test
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
         <title>CLEONARA</title>
         <link rel="icon" href="/favicon.ico" />
